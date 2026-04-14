@@ -308,7 +308,6 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
-  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -434,88 +433,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!114 &330585548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e66d8acb365305c4784b94947a65023b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CameraMovment
-  left:
-    m_Name: Left
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 42eaab59-b12f-4383-84ca-4c793f0ecbf2
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: cbd24670-8ba4-4231-9319-2d6c0d5b30bc
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Left
-      m_Flags: 0
-    m_Flags: 0
-  right:
-    m_Name: Right
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 186cd0ee-06d8-4e3e-818b-c51e0838727c
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 1355a309-b78d-416a-83c9-56fc0e8f91ce
-      m_Path: <Keyboard>/d
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Right
-      m_Flags: 0
-    m_Flags: 0
-  frontward:
-    m_Name: Frontward
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 50a3269a-7b10-41b6-9604-8d48bfd3eb87
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 102fd3e3-396e-48f0-b329-6e11f38476f5
-      m_Path: <Keyboard>/w
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Frontward
-      m_Flags: 0
-    m_Flags: 0
-  backward:
-    m_Name: Backward
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 3c3385de-f468-4cef-bdf5-5b8eb3b6f9f5
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 56fbb9ae-9679-41e6-abbc-85d65905f96a
-      m_Path: <Keyboard>/s
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Backward
-      m_Flags: 0
-    m_Flags: 0
-  cameraTransform: {fileID: 330585546}
-  speed: 6
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
