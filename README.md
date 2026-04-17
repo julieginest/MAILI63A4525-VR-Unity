@@ -34,6 +34,7 @@ Le projet tourne sur **Meta Quest** (build APK) et peut être testé en éditeur
   - `Q` / rotation — Faire pivoter l'objet de -45°
   - `Hold Delete` — Supprimer l'objet ciblé
   - `Backspace` — Reset complet de la scène
+  - `ArrowUp` — Allumer / éteindre une lumière
 
 ### Contenu secondaire
 - **Environnement immersif** (bord de mer, végétation, relief montagneux)
