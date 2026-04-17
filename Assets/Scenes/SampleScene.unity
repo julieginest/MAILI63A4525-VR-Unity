@@ -196,6 +196,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 23663907}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 23663911}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 23663910}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &23663905 stripped
 Transform:
@@ -384,6 +390,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.001655273, z: 0.0020507807}
   m_Center: {x: 0.000004882808, y: 0.000026855467, z: 0.0010253903}
+--- !u!114 &23663910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23663906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &23663911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23663906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!1001 &38282229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -392,6 +429,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1943171270}
     m_Modifications:
+    - target: {fileID: 6598815579406187026, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_KeyboardXTranslateSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187026, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_KeyboardYTranslateSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187026, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_KeyboardZTranslateSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_LocalPosition.x
       value: 58.736618
@@ -1581,6 +1630,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 261857342}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 261857346}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 261857345}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &261857340 stripped
 Transform:
@@ -1769,6 +1824,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.0016552733, z: 0.002050781}
   m_Center: {x: 0.000004882923, y: 0.000026855481, z: 0.0010253903}
+--- !u!114 &261857345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261857341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &261857346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261857341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!1001 &344546861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1846,6 +1932,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 344546864}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 344546868}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 344546867}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &344546862 stripped
 Transform:
@@ -2034,6 +2126,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.0016552738, z: 0.0020507812}
   m_Center: {x: 0.0000048827956, y: 0.000026855445, z: 0.0010253906}
+--- !u!114 &344546867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344546863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &344546868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344546863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!1 &349543164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2557,14 +2680,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90e6e3e05613b6942979075cfaf65038, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 371373964}
+      addedObject: {fileID: 371373966}
   m_SourcePrefab: {fileID: 100100000, guid: 90e6e3e05613b6942979075cfaf65038, type: 3}
 --- !u!1 &371373963 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 90e6e3e05613b6942979075cfaf65038, type: 3}
   m_PrefabInstance: {fileID: 371373962}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &371373964
+--- !u!65 &371373966
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2583,7 +2706,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.5, y: 2, z: 7}
+  m_Size: {x: 2.81, y: 0.5, z: 5.93}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &410087039
 GameObject:
@@ -2803,6 +2926,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 495887498}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 495887502}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 495887501}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &495887496 stripped
 Transform:
@@ -2991,6 +3120,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.001655273, z: 0.0020507807}
   m_Center: {x: 0.000004882808, y: 0.000026855467, z: 0.0010253903}
+--- !u!114 &495887501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495887497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &495887502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495887497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!1 &521813136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3796,6 +3956,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 650446094}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 650446098}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 650446097}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &650446092 stripped
 Transform:
@@ -3984,6 +4150,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.001655273, z: 0.0020507807}
   m_Center: {x: 0.000004882808, y: 0.000026855467, z: 0.0010253903}
+--- !u!114 &650446097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650446093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &650446098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650446093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!1 &714973128
 GameObject:
   m_ObjectHideFlags: 0
@@ -5197,6 +5394,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062630093}
   m_CullTransparentMesh: 1
+--- !u!1 &1065044071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
+  m_PrefabInstance: {fileID: 1502396165}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1066805982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5274,6 +5476,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1066805985}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1066805989}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1066805988}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &1066805983 stripped
 Transform:
@@ -5462,6 +5670,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.0016552738, z: 0.0020507812}
   m_Center: {x: 0.0000048827956, y: 0.000026855445, z: 0.0010253906}
+--- !u!114 &1066805988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066805984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &1066805989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066805984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!1 &1077597694
 GameObject:
   m_ObjectHideFlags: 0
@@ -6826,13 +7065,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1991068353}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1502396169}
   m_SourcePrefab: {fileID: 100100000, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
 --- !u!4 &1502396166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
   m_PrefabInstance: {fileID: 1502396165}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1502396169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065044071}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018476577, y: 0.015874036, z: 0.013793958}
+  m_Center: {x: 0.000024414629, y: 0.0001000959, z: 0.005617678}
 --- !u!1 &1506015057
 GameObject:
   m_ObjectHideFlags: 0
@@ -7147,6 +7410,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1670814600}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1670814604}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1670814603}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &1670814598 stripped
 Transform:
@@ -7335,6 +7604,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.0016552738, z: 0.0020507812}
   m_Center: {x: 0.0000048827956, y: 0.000026855445, z: 0.0010253906}
+--- !u!114 &1670814603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670814599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &1670814604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670814599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!1001 &1672511017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7550,6 +7850,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675591547}
   m_CullTransparentMesh: 1
+--- !u!1 &1728624383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
+  m_PrefabInstance: {fileID: 2019778504}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1736058358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 90e6e3e05613b6942979075cfaf65038, type: 3}
@@ -7574,7 +7879,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.5, y: 2, z: 7}
+  m_Size: {x: 2.81, y: 0.5, z: 5.93}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1753978041 stripped
 Transform:
@@ -7993,6 +8298,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1844786800}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1844786804}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1844786803}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &1844786798 stripped
 Transform:
@@ -8181,6 +8492,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.0016552738, z: 0.0020507812}
   m_Center: {x: 0.0000048827956, y: 0.000026855445, z: 0.0010253906}
+--- !u!114 &1844786803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844786799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &1844786804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844786799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!1 &1886925078
 GameObject:
   m_ObjectHideFlags: 0
@@ -8561,6 +8903,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1947072972}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1947072976}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1947072975}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &1947072970 stripped
 Transform:
@@ -8749,6 +9097,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.001655273, z: 0.0020507807}
   m_Center: {x: 0.000004882808, y: 0.000026855467, z: 0.0010253903}
+--- !u!114 &1947072975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947072971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &1947072976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947072971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!1001 &1991068352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8826,6 +9205,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1991068355}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1991068359}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1991068358}
   m_SourcePrefab: {fileID: 100100000, guid: 5e20b214a59ed4444b707310f18eef9c, type: 3}
 --- !u!4 &1991068353 stripped
 Transform:
@@ -9014,6 +9399,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0, y: 0.0016552733, z: 0.002050781}
   m_Center: {x: 0.000004882923, y: 0.000026855481, z: 0.0010253903}
+--- !u!114 &1991068358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991068354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe1390b04c92394d851d37bcf6bcd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRObjectManipulationManager
+  rotationStep: 45
+  rotateRightKey: 101
+  rotateLeftKey: 113
+  deleteHoldDuration: 1
+  deleteKey: 127
+--- !u!114 &1991068359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991068354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba541c023c4539a41879f30808d73f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverHighlight
+  targetRenderer: {fileID: 0}
+  highlightMaterial: {fileID: 2100000, guid: 1c092be421c645d478b8783358eeb78d, type: 2}
 --- !u!4 &1991783874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3056479908974783848, guid: d23c7039c397c2b42af4f9c9dd639df4, type: 3}
@@ -9089,13 +9505,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 261857340}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2019778508}
   m_SourcePrefab: {fileID: 100100000, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
 --- !u!4 &2019778505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6a1d5d6ba8d36847b1bee92437372cb, type: 3}
   m_PrefabInstance: {fileID: 2019778504}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2019778508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728624383}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018476563, y: 0.015874023, z: 0.013793946}
+  m_Center: {x: 0.000024414134, y: 0.00010009729, z: 0.0056176754}
 --- !u!1 &2075399027
 GameObject:
   m_ObjectHideFlags: 0
