@@ -6,7 +6,7 @@ public class ObjectCatalogueSpawner : MonoBehaviour
     [SerializeField] private GameObject tablePrefab;
     [SerializeField] private GameObject chairPrefab;
     [SerializeField] private GameObject ballPrefab;
-    [SerializeField] private GameObject foodPrefab;
+    [SerializeField] private GameObject parasolPrefab;
 
     [Header("Spawn")]
     [SerializeField] private float spawnDistance = 2f;
@@ -22,7 +22,7 @@ public class ObjectCatalogueSpawner : MonoBehaviour
     public void SpawnTable() => SpawnObject(tablePrefab);
     public void SpawnChair() => SpawnObject(chairPrefab);
     public void SpawnBall() => SpawnObject(ballPrefab);
-    public void SpawnFood() => SpawnObject(foodPrefab);
+    public void SpawnParasol() => SpawnObject(parasolPrefab);
 
     private void SpawnObject(GameObject prefab)
     {
