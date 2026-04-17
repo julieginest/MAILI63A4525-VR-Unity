@@ -167,27 +167,27 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: -7806096647756312651}
-  - {fileID: -8134498429281293439}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 517508335476999183}
-  - {fileID: 2259580587574244226}
-  - {fileID: 9002276787832793631}
-  - {fileID: 5149654085650519074}
-  - {fileID: -5336842947427982907}
-  - {fileID: 1098766384076231377}
-  - {fileID: 1096650697888742417}
-  - {fileID: 7121895915005054938}
-  - {fileID: -5501743493688192636}
-  - {fileID: -8828693670898155834}
-  - {fileID: 6953208145438367149}
-  - {fileID: -345315873680349392}
-  - {fileID: 5889110159612059076}
-  - {fileID: -2351734118872657875}
-  - {fileID: 1642934198215525299}
-  - {fileID: -984511872007560259}
-  - {fileID: 1426494836179573094}
-  - {fileID: -1823616354094616572}
-  - {fileID: 5821598430004549946}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 1
@@ -297,7 +297,7 @@ MonoBehaviour:
   features:
   - {fileID: 7545967613958971670}
   - {fileID: -2826926495660754764}
-  - {fileID: -799339493873638797}
+  - {fileID: 517508335476999183}
   - {fileID: -1518147352096830381}
   - {fileID: -3235611682808109633}
   - {fileID: -2502738854160470731}

@@ -4,36 +4,40 @@ using UnityEngine.InputSystem;
 
 public class LightHandler : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] private InputAction action;
+    [SerializeField] private List<Light> lights;
 
-    [SerializeField] private List<GameObject> sphereObj;
+    private bool isLightOn;
 
-    private bool isLightOn = false;
-    void Start()
+    private void Start()
     {
+        if (lights != null && lights.Count > 0 && lights[0] != null)
+        {
+            isLightOn = lights[0].enabled;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if (action.triggered)
+        if (action.WasPressedThisFrame())
         {
             isLightOn = !isLightOn;
             Debug.Log("Input Action Triggered: " + isLightOn);
-            foreach (var item in sphereObj)
+
+            foreach (var lightItem in lights)
             {
-                item.SetActive(isLightOn);
+                if (lightItem != null)
+                    lightItem.enabled = isLightOn;
             }
         }
     }
 
-    public void OnEnable()
+    private void OnEnable()
     {
         action.Enable();
     }
 
-    public void OnDisable()
+    private void OnDisable()
     {
         action.Disable();
     }
